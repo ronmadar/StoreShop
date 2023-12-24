@@ -1,0 +1,17 @@
+Execute the application
+npm install @angular/cli@16.0.0
+ng serve
+ng start
+ note: ofcourse that need to clone from github and then do npm install all the depndenceis that require 
+
+one of the api i use- https://fakestoreapi.com/products/category/electronics?sort=desc&limit=12
+Access to api in developer in dashborad in stripe url : https://dashboard.stripe.com/test/apikeys
+how use api stripe documention explain: 
+ - https://stripe.com/docs/checkout/quickstart
+ - https://stripe.com/docs/payments/checkout
+
+Inside this url we can see all the payment that already pay:
+ - https://dashboard.stripe.com/test/payments
+ - Here can see all detailes of payment the of products of order by the user, https://dashboard.stripe.com/test/payments/pi_3OPQSXH9FOEzT9Hi1iv0x7L2
+
+change the shipping : https://stripe.com/docs/payments/during-payment/charge-shipping
