@@ -1,5 +1,5 @@
 Execute the application
-npm install @angular/cli@16.0.0
+Created folder do the command npm install @angular/cli@16.0.0 ,and then clone the project
 ng serve
 ng start
  note: ofcourse that need to clone from github and then do npm install all the depndenceis that require 
